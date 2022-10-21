@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Noto Serif', serif;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+.container {
+    text-align: center;
+}
+
+.container .nome h1 {
+    font-size: 50px;
+}
+
+.container .nome h5 {
+    font-size: 25px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+.form input {
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form button {
+    width: 15%;
+    padding: 5px 10px;
+    background-color: navy;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -4px;
+    margin-top: 20px;
+}
+
+.form button:hover{
+    background-color: rgb(87, 87, 214);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url(./ROG-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+    box-shadow: 1px 1px 10px 1px #fff;
+}
+
+header ul li {
+    padding: 5px;
+    border-right: 2px dashed #fff;
+}
+
+header ul li a:hover{
+    color: rgb(62, 39, 192);
+    text-decoration: underline;
+}
+
+header ul li a {
+    transition: 400ms;
+}
+
+header ul li:first-child{
+    padding: 5px;
+    border-left: 2px dashed #fff;
+}
+
+header ul {
+    display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+    .container .nome h1 {
+        font-size: 50px;
+    }
+
+    .container .nome h5 {
+        font-size: 25px;
+    }
+
+    #about p {
+        max-width: 80%;
+        text-align: justify;
+    }
+}
